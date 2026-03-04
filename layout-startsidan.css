@@ -1,0 +1,63 @@
+/* CSS Document */
+body {margin:10px; padding:0; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:12px; color: #663300; background-color:#cccccc; }
+
+/* sidlayout */
+#centrering {width: 800px; margin-right: auto; margin-left: auto;}
+/*#sidhuvud { background-color: #666666; width: 768px; padding: 0 0 0 0; border-top: 1px solid #983c3c; border-bottom: 1px solid #983c3c; border-left: 1px solid #983c3c; border-right: 1px solid #983c3c;}*/
+#huvudmeny { background-color:#dddddd; width: 768px; padding: 0 0 0 0; border-top: 1px solid #983c3c; border-left: 1px solid #983c3c; border-right: 1px solid #983c3c; border-bottom: 0px solid #983c3c }
+#kolumncontainer {background-color: #dddddd; float: left; width: 768px; padding-top: 10px; border-top: 0px solid #983c3c; border-bottom: 1px solid #983c3c; border-left: 1px solid #983c3c; border-right: 1px solid #983c3c;}
+#kolumn1 { float:left; width:715px; padding:10px;}
+#sidfotleft { float: left; background-color: #dddddd; font-size:10px; color: #999999; width: 369px; padding:5px; padding-left: 10px; border-left: 1px solid #983c3c; border-bottom: 1px solid #983c3c;}
+#sidfotright {float: left; background-color: #dddddd; font-size:10px; color: #999999; width: 369px; padding:5px; padding-right: 10px; border-right: 1px solid #983c3c; border-bottom: 1px solid #983c3c; text-align:right;}
+
+/* huvudmeny */
+#menycontainer1 {padding: 110px 11px 0px 14px; margin: 0; background-image: url(images/bilder/sidhuvudny.jpg);}
+#menycontainer1 ul {margin: 0; font: 11px Verdana, Arial, Helvetica, sans-serif; padding: 0 0 0 0; height: 23px;}
+#menycontainer1 li {display: inline; list-style: none; float: left; padding: 0 2px 0 0;}
+.menycontent {display: block; padding: 0 0 4px 0; background: #B4B4B4; color: #663300; text-align: center; border-left: 1px solid #983c3c; border-right: 1px solid #983c3c;}
+a.meny, a.meny:visited {width: 67px; display: block; text-decoration: none; border-bottom: 1px solid #983c3c;}
+a.menyhot {width: 145px; display: block; text-decoration: none; border-bottom: 1px solid #983c3c;}
+a.menyskogs {width: 95px; display: block; text-decoration: none; border-bottom: 1px solid #983c3c;}
+a.menyfjall {width: 56px; display: block; text-decoration: none; border-bottom: 1px solid #983c3c;}
+a.menyvattnen {width: 56px; display: block; text-decoration: none; border-bottom: 1px solid #983c3c;}
+a.menyjakt {width: 56px; display: block; text-decoration: none; border-bottom: 1px solid #983c3c;}
+a.menyfisk {width: 56px; display: block; text-decoration: none; border-bottom: 1px solid #983c3c;}
+a.menyfilm {width: 56px; display: block; text-decoration: none; border-bottom: 1px solid #983c3c;}
+a.meny:hover, a.menyhot:hover, a.menyskogs:hover, a.menyfisk:hover, a.menyjakt:hover, a.menyvattnen:hover, a.menyfjall:hover, a.menyfilm:hover {background: transparent; color:#660000; font-weight:bold;}
+a#nocurrent {}
+a#current .menycontent, a#current .r2, a#current .r3, a#current .r4 {background: #a7b8bc; font-weight:bold;}
+a.meny:hover .menycontent, a.meny:hover .r2, a.meny:hover .r3, a.meny:hover .r4 {background:#a7b8bc;}
+a.menyhot:hover .menycontent, a.menyhot:hover .r2, a.menyhot:hover .r3, a.menyhot:hover .r4 {background:#a7b8bc;}
+a.menyskogs:hover .menycontent, a.menyskogs:hover .r2, a.menyskogs:hover .r3, a.menyskogs:hover .r4 {background:#a7b8bc;}
+a.menyfjall:hover .menycontent, a.menyfjall:hover .r2, a.menyfjall:hover .r3, a.menyfjall:hover .r4 {background:#a7b8bc;}
+a.menyvattnen:hover .menycontent, a.menyvattnen:hover .r2, a.menyvattnen:hover .r3, a.menyvattnen:hover .r4 {background:#a7b8bc;}
+a.menyjakt:hover .menycontent, a.menyjakt:hover .r2, a.menyjakt:hover .r3, a.menyjakt:hover .r4 {background:#a7b8bc;}
+a.menyfisk:hover .menycontent, a.menyfisk:hover .r2, a.menyfisk:hover .r3, a.menyfisk:hover .r4 {background:#a7b8bc;}
+a.menyfilm:hover .menycontent, a.menyfilm:hover .r2, a.menyfilm:hover .r3, a.menyfilm:hover .r4 {background:#a7b8bc;}
+
+/* runda horn till huvudmenyn */
+.roundtop {background: transparent;}
+.r1 {margin: 0 5px; height: 1px; overflow: hidden; background: #983c3c; border-left:1px solid #983c3c; border-right:1px solid #983c3c;}
+.r2 {margin: 0 3px; height: 1px; overflow: hidden; background: #B4B4B4; border-left: 1px solid #983c3c; border-right: 1px solid #983c3c; border-width: 0 2px;}
+.r3 {margin: 0 2px; height: 1px; overflow: hidden; background: #B4B4B4; border-left: 1px solid #983c3c; border-right: 1px solid #983c3c;}
+.r4 {margin: 0 1px; height: 2px; overflow: hidden; background: #B4B4B4; border-left: 1px solid #983c3c; border-right: 1px solid #983c3c;}
+
+/* opacitet till huvudmenyn*/ 
+#opacitet {width: 100%; padding: 0px 0 0 0; opacity: 0.9; filter: alpha (opacity=90);}
+
+/* rubrikbox */
+#rubrikbox { width: auto; }
+
+/* textruta */
+#maintext {width: 500px;  margin-right: auto; margin-left: auto; padding-top: 20px; padding-left: 20px; padding-right: 10px; border: 0px solid #000000}
+
+/* länkutseende */
+a.link, a.link:visited  {text-decoration: none; color: #663300; }
+a.link2, a.link2:visited  {text-decoration: none; color: #999999; }
+a.link:hover, a.link2:hover { color: #983c3c;}
+
+a:link {color: #663300;}
+a:hover {color: #663300;}
+a:visited {color: #663300;}
+a:active {color: #663300;}
+
